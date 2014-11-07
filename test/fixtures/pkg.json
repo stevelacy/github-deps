@@ -1,4 +1,5 @@
 {
+  "name": "project",
   "dependencies": {
     "mocha": "^1.1.0"
   }
