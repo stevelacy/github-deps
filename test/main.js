@@ -3,7 +3,7 @@ var should = require('should');
 
 describe('depss', function(){
   it('should get json from URL', function(done){
-    depss('https://github.com/stevelacy/depss/blob/master/test/fixtures/pkg.json', {}, function(err, data){
+    depss('https://github.com/stevelacy/github-deps/blob/master/test/fixtures/pkg.json', {}, function(err, data){
       console.log(data);
       should(err).equal(null);
       should.exist(data);
@@ -16,8 +16,8 @@ describe('depss', function(){
 
   it('should get json from Array of URLs', function(done){
     var urls = [
-      'https://github.com/stevelacy/depss/blob/master/test/fixtures/pkg.json',
-      'https://github.com/stevelacy/depss/blob/master/test/fixtures/pkg.json'
+      'https://github.com/stevelacy/github-deps/blob/master/test/fixtures/pkg.json',
+      'https://github.com/stevelacy/github-deps/blob/master/test/fixtures/pkg.json'
     ];
 
     depss(urls, {}, function(err, data){
