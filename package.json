@@ -1,0 +1,33 @@
+{
+  "name": "github-deps",
+  "version": "0.1.0",
+  "description": "Get and check npm dependencies from github URLs",
+  "author": "Steve Lacy <me@slacy.me> (http://slacy.me)",
+  "homepage": "https://github.com/stevelacy/github-deps",
+  "dependencies": {
+    "david": "^5.0.0",
+    "rawgithub": "^0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm run-script lint && mocha --reporter spec --timeout 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevelacy/github-deps"
+  },
+  "keywords": [
+    "deps",
+    "dependencies",
+    "check-deps",
+    "github"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevelacy/github-deps/issues"
+  }
+}
