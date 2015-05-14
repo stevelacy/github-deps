@@ -14,7 +14,7 @@
   },
   "main": "lib/index.js",
   "scripts": {
-    "test": "npm run-script lint && mocha --reporter spec --timeout 5000"
+    "test": "mocha --reporter spec --timeout 5000"
   },
   "repository": {
     "type": "git",
